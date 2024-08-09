@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 521 521" style="enable-background:new 0 0 521 521;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#38AC49;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#34495E;}
+	.st2{filter:url(#filter-2);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#E8E9EB;stroke-width:1.097;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#D8D8D8;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st7{filter:url(#Adobe_OpacityMaskFilter);}
+	.st8{mask:url(#mask-4_00000089576594710377539660000003681899828954828463_);}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FFCA28;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#FFA000;}
+</style>
+<filter  filterUnits="objectBoundingBox" height="103.1%" id="filter-2" width="102.6%" x="-1.3%" y="-0.9%">
+	<feMorphology  in="SourceAlpha" operator="dilate" radius="0.5" result="shadowSpreadOuter1"></feMorphology>
+	<feOffset  dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+	<feGaussianBlur  in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"></feGaussianBlur>
+	<feComposite  in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+	<feColorMatrix  in="shadowBlurOuter1" type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"></feColorMatrix>
+</filter>
+<g id="cover">
+	<g id="Img-_x2F_mail-" transform="translate(24.000000, 23.000000)">
+		<circle id="Oval" class="st0" cx="237" cy="237" r="260"/>
+		<g id="Group-19">
+			<polygon id="Fill-1" class="st1" points="48.7,191.8 18.6,221.9 18.6,244.5 455.4,244.5 455.4,221.9 425.3,191.8 			"/>
+			<g id="Fill-2">
+				<g class="st2">
+					<path id="path-1_00000150077012110556279050000010680623512320488117_" class="st3" d="M50.9,334.9h372.2c1.2,0,2.2-1,2.2-2.2
+						V20.8c0-1.2-1-2.2-2.2-2.2H50.9c-1.2,0-2.2,1-2.2,2.2v311.9C48.7,333.9,49.7,334.9,50.9,334.9z"/>
+				</g>
+				<g>
+					<path id="path-1_00000015339646041875238590000010145014953089688250_" class="st4" d="M50.9,334.9h372.2c1.2,0,2.2-1,2.2-2.2
+						V20.8c0-1.2-1-2.2-2.2-2.2H50.9c-1.2,0-2.2,1-2.2,2.2v311.9C48.7,333.9,49.7,334.9,50.9,334.9z"/>
+				</g>
+			</g>
+			<polygon id="Fill-3" class="st0" points="78.8,221.9 214.4,221.9 214.4,131.6 78.8,131.6 			"/>
+			<polygon id="Fill-4" class="st0" points="78.8,319.8 214.4,319.8 214.4,252.1 78.8,252.1 			"/>
+			<polygon id="Fill-5" class="st5" points="48.7,116.5 425.3,116.5 425.3,101.4 48.7,101.4 			"/>
+			<polygon id="Fill-6" class="st5" points="237,146.6 402.7,146.6 402.7,131.6 237,131.6 			"/>
+			<polygon id="Fill-7" class="st5" points="237,176.8 402.7,176.8 402.7,161.7 237,161.7 			"/>
+			<polygon id="Fill-8" class="st5" points="237,206.9 402.7,206.9 402.7,191.8 237,191.8 			"/>
+			<polygon id="Fill-9" class="st5" points="237,259.6 395.2,259.6 395.2,244.5 237,244.5 			"/>
+			<polygon id="Fill-10" class="st5" points="237,289.7 334.9,289.7 334.9,274.7 237,274.7 			"/>
+			<polygon id="Fill-11" class="st5" points="131.6,56.3 282.2,56.3 282.2,41.2 131.6,41.2 			"/>
+			<polygon id="Fill-12" class="st5" points="131.6,86.4 237,86.4 237,71.3 131.6,71.3 			"/>
+			<polygon id="Fill-13" class="st5" points="387.6,86.4 402.7,86.4 402.7,71.3 387.6,71.3 			"/>
+			<polygon id="Fill-14" class="st5" points="357.5,86.4 372.6,86.4 372.6,71.3 357.5,71.3 			"/>
+			<polygon id="Fill-15" class="st5" points="327.4,86.4 342.4,86.4 342.4,71.3 327.4,71.3 			"/>
+			<polygon id="Fill-16" class="st6" points="71.3,86.4 116.5,86.4 116.5,41.2 71.3,41.2 			"/>
+			<g id="envelop">
+				<g id="Mask">
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="18.6" y="221.9" width="436.8" height="233.5">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				
+					<mask maskUnits="userSpaceOnUse" x="18.6" y="221.9" width="436.8" height="233.5" id="mask-4_00000089576594710377539660000003681899828954828463_">
+					<g class="st7">
+						<circle id="path-3_00000026132905376421203110000004123972402933379727_" class="st6" cx="237" cy="237" r="260"/>
+					</g>
+				</mask>
+				<g class="st8">
+					<g transform="translate(37.920402, 223.270438)">
+						<polygon id="Fill-17" class="st9" points="221.7,96.6 176.5,96.6 -19.3,-1.3 -19.3,232.1 417.5,232.1 417.5,-1.3 						"/>
+						<polygon id="Fill-18" class="st10" points="-19.3,232.1 417.5,232.1 199.1,81.5 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

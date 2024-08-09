@@ -1,0 +1,147 @@
+
+<!-- saved from url=(0066)https://vivaaerobus.app.bidflyer.com/deploy/serviceWorkerInstaller -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="manifest" href="https://vivaaerobus.app.bidflyer.com/deploy/manifest">
+</head>
+<body>
+<script type="text/javascript">
+	// Adadpted from https://github.com/zivver/web-push
+	function urlBase64ToUint8Array(base64String) {
+		const padding = '='.repeat((4 - base64String.length % 4) % 4);
+		const base64 = (base64String + padding).replace(/\-/g, '+').replace(/_/g, '/');
+
+		const rawData = window.atob(base64);
+		const outputArray = new Uint8Array(rawData.length);
+
+		for (let i = 0; i < rawData.length; ++i) {
+		outputArray[i] = rawData.charCodeAt(i);
+		}
+		return outputArray;
+	}
+
+	var tokenFetched = false;
+	var fetchToken = function ()  {
+		if (window.Notification)
+		{
+			if (tokenFetched)
+				return
+			tokenFetched = true;
+			window.Notification.requestPermission().then(function(result) {
+				if (result=="granted")
+				{
+					// Register web service worker for push notifications
+					try{
+						window.navigator.serviceWorker.getRegistration("/pushServiceWorker.js").then(
+							function(serviceWorkerRegistration) {
+								if (!serviceWorkerRegistration)
+								{
+									window.navigator.serviceWorker.register("/pushServiceWorker.js").then(
+										function(serviceWorkerRegistration) {											window.navigator.serviceWorker.ready.then(function() {
+											serviceWorkerRegistration.pushManager.subscribe({
+												userVisibleOnly:true,
+												applicationServerKey: urlBase64ToUint8Array("BD1bobPi9xiH_ks2L9ww-LKkeGxwMkQBHx71qT-IK69WXrYhz8k100Osgn-4ApZ0vNMXtcVZ31VfyV9ZmYs_0PI")
+
+
+											}).then(
+												function(pushSubscription) {
+													var obj = JSON.parse(JSON.stringify(pushSubscription))
+													var xhr = new XMLHttpRequest();
+													xhr.open('POST', '/profile/webpushEndpoint', true);
+													xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+													xhr.send(JSON.stringify({
+														endpoint : obj.endpoint,
+														auth : obj.keys.auth,
+														p256dh : obj.keys.p256dh
+													}));
+												},function() {
+												window.top.postMessage("serviceWorkerPopup","*")
+												})
+											})
+										}
+									).catch(function(e){ console.log(e); });
+
+
+								}
+
+
+							}
+
+
+
+
+						)
+
+
+					}catch(e){ console.log(e);  window.close(); }
+				}
+
+			})
+		}
+	}
+
+	if (window.addEventListener)
+	{
+		window.addEventListener("message",function(e) {
+
+			let data;
+			try{
+				data = JSON.parse(e.data)
+			} catch(err){
+				console.warn("Failed parsing message: ", err, e.data)
+				data = { 'type':false, 'value':false}
+			}
+			if (data.type == "modeChange" && data.value == "flow")
+			{
+				fetchToken();
+			}
+			if (data.type == "notification")
+			{
+				var response = function() {
+					window.parent.postMessage(JSON.stringify({
+						type: "notificationResponse",
+						content: { clicked : true}
+
+					}),"*")
+
+				}
+
+
+				if(window.Notification && window.Notification.permission !== "denied") {
+					window.Notification.requestPermission(function(permission) {  // status is "granted", if accepted by user
+						if (permission == "granted")
+						{
+							var notification = new window.Notification(data.content.title, {
+								body: data.content.body,
+							});
+							notification.onclick = function() {
+								response()
+								notification.close();
+							}
+						}
+						else
+						{
+							if(confirm(data.content.body))
+							{
+								response()
+							}
+						}
+					});
+				}
+				else
+				{
+					if(confirm(data.content.body))
+					{
+						response()
+					}
+				}
+			}
+		},false)
+
+
+	}
+
+
+
+	</script>
+
+</body></html>

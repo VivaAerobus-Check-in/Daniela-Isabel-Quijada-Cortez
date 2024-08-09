@@ -1,0 +1,37 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4180328, 2021-09-14T13:14:33-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Axiforma-Bold by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/bold/
+ * 
+ * Webfont: Axiforma-Medium by Kastelov
+ * URL: https://www.myfonts.com/fonts/kastelov/axiforma/medium/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2017 by Kastelov. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('/assets/fonts/AxiformaBold/font.woff2') format('woff2'),
+    url('/assets/fonts/AxiformaBold/font.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('/assets/fonts/AxiformaMedium/font.woff2') format('woff2'),
+    url('/assets/fonts/AxiformaMedium/font.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
