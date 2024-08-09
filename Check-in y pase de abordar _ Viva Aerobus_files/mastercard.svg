@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="17px" viewBox="0 0 30 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mastercard</title>
+    <defs>
+        <polygon id="path-1" points="0 0 8.58207626 0 8.58207626 11 0 11"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mastercard">
+            <g id="Group-42" transform="translate(6.000000, 3.000000)">
+                <path d="M9.40065184,10.0596741 C12.2066064,7.68609159 12.285449,3.42846852 9.42336921,0.929987381 C11.3441688,-0.576006269 14.6047791,-0.209433747 16.4633886,1.72141847 C18.4611805,3.79676728 18.5173058,6.97538769 16.5944503,9.14151651 C14.7866208,11.1781772 11.5627078,11.602528 9.40065184,10.0596741" id="Fill-1" fill="#FEFEFE" fill-rule="nonzero"></path>
+                <g id="Fill-3-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <path d="M8.58207626,0.91236956 C5.72965905,3.35378318 5.77180439,7.68797015 8.57446954,10.0678483 C6.64493249,11.5674447 3.40231111,11.2170176 1.55737313,9.30931736 C-0.405674601,7.27966319 -0.527998882,4.10124587 1.27602728,2.00081578 C3.13751502,-0.166430018 6.32678657,-0.641552686 8.58207626,0.91236956" id="Fill-3" fill="#FEFEFE" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M8.99826664,1.20112919 C11.8248827,3.36421171 11.8153229,7.84208292 9.00052809,9.77953548 C6.28061172,7.83375634 6.07409956,3.43356601 8.99826664,1.20112919" id="Fill-6" fill="#FEFEFE" fill-rule="nonzero"></path>
+            </g>
+            <rect id="Rectangle" x="0" y="0" width="30" height="17"></rect>
+        </g>
+    </g>
+</svg>
